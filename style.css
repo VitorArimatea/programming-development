@@ -150,10 +150,28 @@ header {
     height: 70%;
     display: flex;
     justify-content: center;
+    animation-duration: 10s ;
+    animation-timing-function: linear;
+	animation-iteration-count: infinite;
+    animation-name: home_image;
     transition: .2s ease-in-out;
 }
 
 .image_field:hover {
     scale: 1.1;
     transform: translateY(-1rem);
+}
+
+@keyframes home_image {
+    0% {
+        transform: translateY(-1rem);
+    }
+
+    50% {
+        transform: translateY(1rem);
+    }
+
+    100% {
+        transform: translateY(-1rem);
+    }
 }
