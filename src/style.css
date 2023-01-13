@@ -48,7 +48,7 @@ header {
 .nav_logo {
     color: #f7ef0c;
     font-size: 1.1rem;
-    margin-right: 5rem;
+    margin-right: 9.7rem;
     cursor: default;
 }
 
@@ -62,7 +62,7 @@ header {
 }
 
 .nav_item:hover {
-    box-shadow: 0 1px 0 0  #ffffff;
+    color: #eee;
     translate: -0.5rem;
 }
 
