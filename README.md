@@ -1,4 +1,3 @@
-#Lading Page Programming & Web Design
+<h1>Landing Page Sobre Programação e Desenvolvimento Web</h1>
 
-##Esse projeto está em desenvolvimento...
-
+## Atualmente em desenvolvimento...
