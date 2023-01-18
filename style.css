@@ -10,8 +10,8 @@
 }
 
 :root {
-    --primary_text: #323232;
-    --secondary_text: #ffffff;
+    --primary_text: #323;
+    --secondary_text: #fff;
 }
 
 body {
@@ -25,7 +25,7 @@ body * {
 /*--Navbar--*/
 
 header {
-    height: 10%;
+    height: auto;
     width: 100%;
     padding: 1.7rem;
     display: flex; 
@@ -41,15 +41,9 @@ header {
     position: relative;
 }
 
-.nav_list {
-    display: flex;
-}
-
 .nav_logo {
-    color: #f7ef0c;
-    font-size: 1.1rem;
-    margin-right: 9.7rem;
-    cursor: default;
+    height: 5%;
+    width: 10%;
 }
 
 .nav_item {
