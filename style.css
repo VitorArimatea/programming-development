@@ -27,7 +27,6 @@ body * {
 header {
     height: auto;
     width: 100%;
-    padding: 1.7rem;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -41,9 +40,14 @@ header {
     position: relative;
 }
 
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
 .nav_logo {
-    height: 5%;
-    width: 10%;
+    height: 4rem;
+    width: auto;
 }
 
 .nav_item {
