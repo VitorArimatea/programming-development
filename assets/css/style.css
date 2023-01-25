@@ -104,18 +104,17 @@ header {
 #home {
     height: 100vh;
     width: 100%;
-    background-color: #ffffff;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 3.5rem;
 }
 
 .home_left {
-    height: 100vh;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4.5rem;
 }
 
 #home h1 {
@@ -127,7 +126,7 @@ header {
 
 .text_field {
     width: 75%;
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     text-align: justify;
 }
 
@@ -135,7 +134,7 @@ header {
     background-color: #08199b;
     color: #fff;
     padding: 1.2rem 4rem;
-    margin-top: 3rem;
+    margin-top: 1.5rem; 
     border-radius: .25rem;
     cursor: pointer;
     transition: .4s ease-in-out;
@@ -144,6 +143,45 @@ header {
 .home_btn:hover {
     background-color: #000d70;
 }
+
+.home_right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_field {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    animation-duration: 10s ;
+    animation-timing-function: linear;
+	animation-iteration-count: infinite;
+    animation-name: home_image;
+    transition: .2s ease-in-out;
+}
+
+.image_field:hover {
+    scale: 1.1;
+    transform: translateY(-1rem);
+}
+
+@keyframes home_image {
+    0% {
+        transform: translateX(-1rem);
+    }
+
+    50% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        transform: translateX(-1rem);
+    }
+}
+
 
 /*--Modal--*/
 
@@ -206,41 +244,6 @@ header {
     transition: 0.5s;
     opacity: 1;
     pointer-events: all;
-}
-
-.home_right {
-    height: 100vh;
-    width: 50%;
-}
-
-.image_field {
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    animation-duration: 10s ;
-    animation-timing-function: linear;
-	animation-iteration-count: infinite;
-    animation-name: home_image;
-    transition: .2s ease-in-out;
-}
-
-.image_field:hover {
-    scale: 1.1;
-    transform: translateY(-1rem);
-}
-
-@keyframes home_image {
-    0% {
-        transform: translateX(-1rem);
-    }
-
-    50% {
-        transform: translateX(1rem);
-    }
-
-    100% {
-        transform: translateX(-1rem);
-    }
 }
 
 footer {
