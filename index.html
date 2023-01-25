@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming and Web Development Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="modal.js" defer></script>
 </head>
 <body>
+
     <header>
         <nav class="navbar">
             
             <ul class="nav_list">
                 
                 <li class="nav_item"><a href=""><img class="nav_logo" src="assets/img/vitor-individual-works-logo.png" alt="Vítor Oliveira Arimatéa Individual Works Logo"></a></li>
-                <li class="nav_item">Home</li>
-                <li class="nav_item">Support</li>
-                <li class="nav_item">Portfolio</li>
-                <li class="nav_item">Info</li>
-                <li class="nav_item">Contact Us</li>
+                <a href="#home"><li class="nav_item">Home</li></a>
+                <a href="#"><li class="nav_item">Programming</li></a>
+                <a href="#"><li class="nav_item">Web Development</li></a>
+                <a href=""><li class="nav_item">Contact Us</li></a>
             
             </ul>
 
@@ -26,20 +27,34 @@
                 <button class="nav_btn_login" href="#">Login</button>
                 <button class="nav_btn_signup" href="#">Sign up</button>
             </div>
+
         </nav>
     </header>
+    
     <main>
 
-        <section class="home">
+        <section id="home">
             <div class="home_left">
-                <h1>Programming</h1>
+                <h1>Programming & development</h1>
                 <div class="text_field">
-                    <p>Programming is the process of designing, writing, testing, and maintaining the source code of computer programs. This code is written in a variety of programming languages, such as C++, Java, Python, and JavaScript.
-                        
-                    </p>
+                    <p>What is the difference between programming and development? On this page, we will talk about these two amazing areas.</p>
                 </div>
 
                 <button class="home_btn">Get Started</button>
+                <div id="fade" class="hide"></div>
+                <div id="modal" class="hide">
+                    <div class="modal_header">
+                        <h2>Select what you want to view.</h2>
+                        <button class="modal_close">Close</button>
+                    </div>
+                    <div class="modal_main">
+                        <div class="modal_left"><a href="programming">Programming</a></div>
+                        <div class="modal_right"><a href="#development">Development</a></div>
+                    </div>
+                    <div class="modal_footer">
+
+                    </div>
+                </div>
 
             </div>
 
@@ -52,7 +67,7 @@
 
     </main>
     <footer>
-
+        <span>Projeto realizado com muito 💙 por <a href="https://github.com/VitorArimatea" target="_blank">Vítor Oliveira Arimatéa</a></span>
     </footer>
 </body>
 </html>

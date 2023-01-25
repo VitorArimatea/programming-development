@@ -1,7 +1,7 @@
 {  
   // editor
   "editor.wordWrap": "on",
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.lineHeight": 21,
   "editor.tabSize": 4,
   "editor.bracketPairColorization.enabled": true,
@@ -31,5 +31,5 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "window.zoomLevel": 1.1
+  "window.zoomLevel": 1.2
 }
