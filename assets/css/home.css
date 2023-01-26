@@ -1,5 +1,3 @@
-/*--Home--*/
-
 #home {
     height: 100vh;
     width: 100%;
@@ -23,11 +21,11 @@
     color: #08199b;
 }
 
-.text_field {
-    width: 75%;
+.text_field_programming {
+    width: 90%;
     margin-top: 0.5rem;
     text-align: justify;
-    font-size: 1.15rem;
+    font-size: 1.18rem;
 }
 
 .home_btn {

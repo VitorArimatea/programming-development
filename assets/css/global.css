@@ -121,7 +121,7 @@ header {
     max-width: 90%;
     padding: 1.2rem;
     border-radius: .5rem;
-    background-color: #fff;
+    background-color: var(--secondary_text);
 }
 
 #modal * {

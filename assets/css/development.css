@@ -1,14 +1,44 @@
 #development {
     height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 5rem;
 }
 
-#development h1 {
+.development_top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.development_top h1 {
     font-size: 3rem;
     color: #08199b;
+}
+
+.development_bottom {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.development_bottom .card {
+    height: 17rem;
+    width: 15rem;
+    background-color: #08199be1;
+    border-radius: .9rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.card_title {
+    color: #fff;
+    text-align: center;
+}
+
+.card h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
 }
