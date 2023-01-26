@@ -138,14 +138,20 @@ header {
 }
 
 .modal_home {
+    height: 1.7rem;
+    width: 1.7rem;  
     color: var(--secondary_text);
     background-color: #000d70;
-    padding: 0.3rem 0.5rem;
+    padding: 0.1rem 0.3rem;
     border-radius: .1rem;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal_close {
+    height: 1.7rem;
+    width: 1.7rem;  
     color: var(--secondary_text);
     background-color: #000d70;
     padding: 0.3rem 0.5rem;
