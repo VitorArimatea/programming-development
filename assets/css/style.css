@@ -79,7 +79,7 @@ header {
 
 .nav_btn_login {
     font-size: 1.1rem;
-    color: #fff;
+    color: var(--secondary_text);
     cursor: pointer;
     transition: .3s ease-in-out;
 }
@@ -90,7 +90,7 @@ header {
 
 .nav_btn_signup {
     font-size: 1.1rem;
-    color: #fff;
+    color: var(--secondary_text);
     cursor: pointer;
     transition: .3s ease-in-out;
 }
@@ -128,11 +128,12 @@ header {
     width: 75%;
     margin-top: 0.5rem;
     text-align: justify;
+    font-size: 1.15rem;
 }
 
 .home_btn {
     background-color: #08199b;
-    color: #fff;
+    color: var(--secondary_text);
     padding: 1.2rem 4rem;
     margin-top: 1.5rem; 
     border-radius: .25rem;
@@ -244,6 +245,38 @@ header {
     transition: 0.5s;
     opacity: 1;
     pointer-events: all;
+}
+
+/*--Programming--*/
+
+#programming {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+#programming h1 {
+    font-size: 3rem;
+    color: #08199b;
+}
+
+#development {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+#development h1 {
+    font-size: 3rem;
+    color: #08199b;
 }
 
 footer {
