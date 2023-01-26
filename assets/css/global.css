@@ -81,22 +81,22 @@ header {
     font-size: 1.1rem;
     color: var(--secondary_text);
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 .nav_btn_login:hover {
-    box-shadow: 0 1px 0 0 var(--secondary_text);
+    color: #00eaff;
 }
 
 .nav_btn_signup {
     font-size: 1.1rem;
     color: var(--secondary_text);
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 .nav_btn_signup:hover {
-    box-shadow: 0 1px 0 0 var(--secondary_text);
+    color: #00eaff;
 }
 
 /*--Modal--*/
