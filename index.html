@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming and Development Landing Page</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/programming.css">
+    <link rel="stylesheet" href="assets/css/development.css">
+        <!-- JS -->
     <script src="assets/js/modal.js" defer></script>
+        <!-- Icons -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/7e070517dd.css" crossorigin="anonymous">
 </head>
 <body>
+
+        <!-- Navbar -->
 
     <header>
         <nav class="navbar">
@@ -34,6 +43,8 @@
     
     <main>
 
+            <!-- Home -->
+
         <section id="home">
             
             <div class="home_left">
@@ -57,11 +68,13 @@
                 <div id="modal" class="hide">
                     <div class="modal_header">
                         <h2>Select what you want to view.</h2>
-                        <button class="modal_close">Close</button>
+                        <a class="modal_home" href="#"><i class="fa-solid fa-house-chimney-blank"></i></a>
+                        <button class="modal_close"> X </button>
                     </div>
                     <div class="modal_main">
-                        <div class="modal_left"><a href="#programming">Programming</a></div>
-                        <div class="modal_right"><a href="#development">Development</a></div>
+                        <div class="modal_left"><a href="#programming"><div class="modal_card"><span>Programming</span></a></div>
+                    </div>
+                        <div class="modal_right"><a href="#development"><div class="modal_card"><span>Development</span></a></div>
                     </div>
                     <div class="modal_footer">
                     </div>
@@ -69,15 +82,34 @@
 
         </section>
 
+            <!-- Programming -->
+
         <section id="programming">
 
+            <div class="programming_top">
                 <h1>Programming</h1>
                 
                 <div class="text_field">
                     <p>Programming is the process of creating instructions that a computer can execute to perform a specific task or set of tasks. It involves writing code in a programming language, which is then compiled or interpreted by the computer. Programming languages include C++, Java, Python, and JavaScript, among many others. There are many different types of programming, including web development, mobile app development, game development, and data science. Each type of programming requires a different skill set and knowledge of specific tools and libraries.</p>
                 </div>
+            </div>
 
+            <div class="programming_bottom">
+                <button class=""><div class="card">
+                    <h1 class="card_title">Languages</h1>
+                    <img src="assets/img/card-image-programming.svg" alt="">
+                    <h2>Saiba mais</h2>
+                </div></button>
+                <div class="card">
+                    <h1 class="card_title">Works</h1>
+                </div>
+                <div class="card">
+                    <h1 class="card_title">Frameworks</h1>
+                </div>
+            </div>
         </section>
+
+            <!-- Development -->
 
         <section id="development">
 
@@ -93,8 +125,10 @@
         </section>
 
     </main>
+
     <footer>
         <span>Projeto realizado com muito 💙 por <a href="https://github.com/VitorArimatea" target="_blank">Vítor Oliveira Arimatéa</a></span>
     </footer>
+
 </body>
 </html>
