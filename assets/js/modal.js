@@ -1,3 +1,5 @@
+// Home Modal
+
 const openModalButton = document.querySelector('.home_btn');
 const closeModalButton = document.querySelector('.modal_close');
 const modal = document.getElementById('modal');
@@ -8,5 +10,5 @@ const toggleModal = () => {
 }
 
 [openModalButton, closeModalButton, fade].forEach((element) => {
-    element.addEventListener("click", () =>toggleModal())
+    element.addEventListener("click", () =>toggleModal());
 })

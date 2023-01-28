@@ -17,19 +17,27 @@
     color: #08199b;
 }
 
+.development_top .text_field {
+    font-size: 1rem;
+}
+
 .development_bottom {
     height: 50%;
     display: flex;
     justify-content: space-around;
 }
 
-.development_bottom .card {
+.card {
     height: 17rem;
     width: 15rem;
     background-color: #08199be1;
     border-radius: .9rem;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card_title {
@@ -37,8 +45,23 @@
     text-align: center;
 }
 
-.card h2 {
-    color: #fff;
-    text-align: center;
+.card_image {
+    height: 8rem;
+    width: auto;
+    margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.card span,a {
+    color: #fff;
+    opacity: 0;
+    transition: .3s;
+}
+
+.card:hover span,a {
+    opacity: 1;
+}
+
+.card a:hover {
+    color: #feed00;
 }
