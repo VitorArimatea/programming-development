@@ -52,6 +52,13 @@
     font-size: 1.15rem;
 }
 
+.text_field_programming {
+    width: 90%;
+    margin-top: 0.5rem;
+    text-align: justify;
+    font-size: 1.18rem;
+}
+
 .programming_bottom .card {
     height: 17rem;
     width: 15rem;

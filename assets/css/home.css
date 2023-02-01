@@ -21,13 +21,6 @@
     color: #08199b;
 }
 
-.text_field_programming {
-    width: 90%;
-    margin-top: 0.5rem;
-    text-align: justify;
-    font-size: 1.18rem;
-}
-
 .home_btn {
     background-color: #08199b;
     color: var(--secondary_text);
@@ -79,3 +72,64 @@
         transform: translateX(-1rem);
     }
 }
+
+/*--Responsive--*/
+
+@media (max-width: 1116px) {
+    
+    #home h1 {
+    font-size: 3.5rem;
+    margin-left: 4rem;
+}
+
+.text_field p {
+    font-size: 1rem;
+}
+
+.image_field {
+    height: 70%;
+}
+
+}
+
+@media (max-width: 970px) {
+    
+    #home h1 {
+    font-size: 3rem;
+}
+
+.text_field p {
+    font-size: 1rem;
+}
+
+.image_field {
+    height: 70%;
+}
+
+}
+
+@media (max-width: 900px) {
+ 
+    #home {
+        flex-direction: column;
+        padding: 7rem;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    .home_left {
+        height: 50%;
+    }
+
+    .home_right {
+        height: 50%;
+    }
+
+    .text_field p {
+        font-size: 1rem;
+    }
+
+
+}    

@@ -1,4 +1,4 @@
-<h1>Programação e Desenvolvimento Web</h1>
+<h1>Programação e Desenvolvimento</h1>
 
 ## Tecnologias
 <p>Para desenvolver esse projeto eu estou utilizando as seguintes tecnologias:</p> 

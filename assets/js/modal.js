@@ -12,3 +12,11 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((element) => {
     element.addEventListener("click", () =>toggleModal());
 })
+
+//Dark theme
+
+const checkbox = document.getElementById('checktheme');
+
+checkbox.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+})

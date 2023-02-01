@@ -1,5 +1,7 @@
 {  
   // editor
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.fontSize": 17,
   "editor.lineHeight": 21,
