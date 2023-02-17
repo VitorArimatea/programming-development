@@ -47,7 +47,7 @@ header {
 }
 
 .nav_logo {
-    height: 4rem;
+    height: 3rem;
     width: auto;
     transition: .5s ease;
     background-color: transparent;
@@ -94,7 +94,7 @@ header {
 }
 
 .nav_btn_login:hover {
-    color: #00eaff;
+    color: #e5e5e5;
 }
 
 .nav_btn_signup {
@@ -105,7 +105,7 @@ header {
 }
 
 .nav_btn_signup:hover {
-    color: #00eaff;
+    color: #dbdbdb;
 }
 
 .nav_toggle {

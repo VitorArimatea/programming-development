@@ -19,4 +19,5 @@ const checkbox = document.getElementById('checktheme');
 
 checkbox.addEventListener('change', () => {
     document.body.classList.toggle('dark');
+    document.text_field.dark.toggle('dark');
 })
