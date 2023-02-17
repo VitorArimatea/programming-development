@@ -121,6 +121,10 @@ body.dark {
     background-color: #212121;
 }
 
+body.dark_text {
+    color: var(--secondary_text);
+}
+
 .checkbox {
     opacity: 0;
     position: absolute;
